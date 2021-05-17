@@ -1,0 +1,32 @@
+.comment-list {
+  @extend .list-unstyled;
+}
+
+.comment-list ol {
+  list-style: none;
+}
+
+.comment-form p {
+  @extend .form-group !optional;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form input[type="url"],
+.comment-form textarea {
+  @extend .form-control;
+}
+
+.comment-form input[type="submit"] {
+  @extend .btn;
+  @extend .btn-secondary;
+}
+
+blockquote {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  padding: 1rem;
+  box-shadow: 4px 4px 0 #0077c820;
+  border-radius: 5px;
+  border: 1px solid $gray-200;
+}

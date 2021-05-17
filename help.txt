@@ -1,0 +1,3 @@
+la info entre {{}} del index del layout viene del _index.md de content
+
+.Site es el index del default del config
